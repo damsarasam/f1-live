@@ -1,0 +1,5 @@
+fastf1>=3.4.0
+streamlit>=1.39.0
+pandas
+matplotlib
+plotly

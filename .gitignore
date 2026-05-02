@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+env/
+.env
+
+# FastF1 Caches
+ff1_cache/
+.fastf1-cache/
+computed_data/
+
+# OS Files
+.DS_Store
