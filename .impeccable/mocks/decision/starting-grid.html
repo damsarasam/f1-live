@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,600;0,700;0,900;1,700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0}
+body{width:1440px;height:900px;overflow:hidden;background:#0b0b10;color:#f4f4f7;font-family:"Titillium Web",sans-serif;position:relative}
+.top{position:relative;z-index:2;height:60px;display:flex;align-items:center;gap:36px;padding:0 48px;border-top:3px solid #e10600;border-bottom:1px solid #2b2b3a;background:#0b0b10}
+.mark{font-weight:900;font-size:22px;letter-spacing:.06em}.mark b{color:#ff2a1f}
+.top nav{display:flex;gap:4px;font-weight:700;font-size:14px;letter-spacing:.1em;text-transform:uppercase}
+.top nav span{padding:8px 18px;color:#a2a2b6}.top nav .on{background:#e10600;color:#fff;clip-path:polygon(10px 0,100% 0,calc(100% - 10px) 100%,0 100%)}
+.top nav .soon{color:#a2a2b6}
+.trace{position:absolute;left:0;top:60px;width:1440px;height:840px;z-index:0}
+.grid{position:relative;z-index:1;display:grid;grid-template-columns:1fr 1fr;column-gap:120px;padding:40px 120px 0}
+.box{position:relative;height:200px;padding:26px 30px;border:3px solid #f4f4f7;border-bottom:0;background:rgba(11,11,16,.82)}
+.box::after{content:"";position:absolute;left:-3px;right:-3px;bottom:0;height:3px;background:linear-gradient(90deg,#f4f4f7 0 14%,transparent 14% 86%,#f4f4f7 86%)}
+.right{margin-top:110px}
+.pos{position:absolute;top:-16px;left:22px;background:#e10600;color:#fff;font-weight:900;font-style:italic;padding:2px 14px;font-size:18px}
+.box.dim .pos{background:#242432}
+h1{font-style:italic;font-weight:700;text-transform:uppercase;font-size:56px;line-height:.95}
+h1 em{color:#ff2a1f;font-style:italic}
+.p{color:#a2a2b6;margin-top:8px;font-size:17px}
+.btn{display:inline-block;margin-top:16px;padding:12px 24px;background:#e10600;color:#fff;font-weight:700;letter-spacing:.1em;text-transform:uppercase;font-size:14px;clip-path:polygon(10px 0,100% 0,calc(100% - 10px) 100%,0 100%)}
+.btn.sec{background:#242432}
+.t{font-style:italic;font-weight:700;text-transform:uppercase;font-size:30px;line-height:1}
+.pod{display:flex;gap:18px;margin-top:14px;font-weight:700;font-size:20px}.pod i{display:inline-block;width:5px;height:20px;margin-right:8px;vertical-align:-3px}
+.cd{font-weight:900;font-size:44px;margin-top:10px}.cd small{font-size:15px;color:#a2a2b6;margin:0 8px 0 2px}
+.free{display:flex;gap:8px;margin-top:12px}.free span{background:#1b1b26;padding:4px 12px;font-weight:700;font-size:12px;letter-spacing:.1em;text-transform:uppercase}
+</style></head><body>
+<header class="top"><div class="mark">AEROLABS <b>AI</b></div>
+<nav><span class="on">F1 Data Hub</span><span>Live</span><span>Sessions</span><span>Strategy</span><span class="soon">Aerospace · soon</span></nav></header>
+<svg class="trace" viewBox="0 0 1440 840"><path d="M90 640 L330 180 L520 240 L640 470 L760 210 L930 170 L1340 300 L1380 650 L960 700 L760 620 L420 600 L250 800Z" fill="none" stroke="#1b1b26" stroke-width="34" stroke-linejoin="round"/><path d="M90 640 L330 180 L520 240 L640 470 L760 210 L930 170 L1340 300 L1380 650 L960 700 L760 620 L420 600 L250 800Z" fill="none" stroke="#e10600" stroke-width="4" stroke-linejoin="round" opacity=".5"/></svg>
+<div class="grid">
+<div>
+<div class="box"><span class="pos">P1</span><h1>Every lap, <em>decoded.</em></h1><p class="p">Free F1 race analysis. No login, no F1 TV.</p><span class="btn">Explore past sessions →</span></div>
+<div class="box" style="margin-top:40px"><span class="pos">P3</span><div class="t">Strategy history</div><p class="p">Tyre plans that won at the US Grand Prix.</p><span class="btn sec">Strategy →</span></div>
+</div>
+<div class="right">
+<div class="box dim"><span class="pos">P2</span><div class="t">Live board</div><p class="p">Timing tower, tyres and weather.</p><span class="btn sec">Live →</span></div>
+<div class="box dim" style="margin-top:40px"><span class="pos">P4</span><div class="t">Singapore GP · Race</div><div class="pod"><span><i style="background:#4781d7"></i>VER</span><span><i style="background:#e8002d"></i>LEC</span><span><i style="background:#27f4d2"></i>ANT</span></div><div class="cd">2<small>d</small>19<small>h</small>36<small>m</small><span style="font-size:15px;color:#a2a2b6;font-weight:600"> to US GP</span></div></div>
+</div>
+</div>
+</body></html>

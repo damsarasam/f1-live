@@ -1,0 +1,89 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/onboard.html"
+        ],
+        "createdAt": "2026-10-20T22:38:37.763Z",
+        "reason": "Claude: decision-round sketch fixture, not shipped; the built podium in home.js is padded"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/brand-orbital-atlas.html"
+        ],
+        "createdAt": "2026-10-21T08:18:51.449Z",
+        "reason": "Claude: unshipped parent-brand decision sketch; new-identity fonts are proposals outside the F1 DESIGN.md"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/brand-wind-tunnel.html"
+        ],
+        "createdAt": "2026-10-21T08:18:51.469Z",
+        "reason": "Claude: unshipped parent-brand decision sketch; new-identity fonts are proposals outside the F1 DESIGN.md"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/brand-ascent.html"
+        ],
+        "createdAt": "2026-10-21T08:18:51.488Z",
+        "reason": "Claude: unshipped parent-brand decision sketch; new-identity fonts are proposals outside the F1 DESIGN.md"
+      },
+      {
+        "rule": "low-contrast",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/brand-wind-tunnel.html"
+        ],
+        "createdAt": "2026-10-21T08:18:51.506Z",
+        "reason": "Claude: unshipped decision sketch thumbnail; labels over decorative smoke lines"
+      },
+      {
+        "rule": "italic-serif-display",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/brand-orbital-atlas.html"
+        ],
+        "createdAt": "2026-10-21T08:26:06.037Z",
+        "reason": "Claude: unchosen decision-round sketch, spent hand, never shipped"
+      },
+      {
+        "rule": "oversized-h1",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/brand-orbital-atlas.html"
+        ],
+        "createdAt": "2026-10-21T08:26:06.057Z",
+        "reason": "Claude: unchosen decision-round sketch, spent hand, never shipped"
+      },
+      {
+        "rule": "overused-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/brand-orbital-atlas.html"
+        ],
+        "createdAt": "2026-10-21T08:26:06.077Z",
+        "reason": "Claude: unchosen decision-round sketch, spent hand, never shipped"
+      },
+      {
+        "rule": "hero-eyebrow-chip",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/brand-ascent.html"
+        ],
+        "createdAt": "2026-10-21T08:26:06.097Z",
+        "reason": "Claude: unchosen decision-round sketch, spent hand, never shipped"
+      }
+    ]
+  }
+}

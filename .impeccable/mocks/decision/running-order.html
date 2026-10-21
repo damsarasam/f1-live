@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,600;0,700;0,900;1,700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0}
+body{width:1440px;height:900px;overflow:hidden;background:#0b0b10;color:#f4f4f7;font-family:"Titillium Web",sans-serif}
+.top{height:60px;display:flex;align-items:center;gap:36px;padding:0 48px;border-top:3px solid #e10600;border-bottom:1px solid #2b2b3a}
+.mark{font-weight:900;font-size:22px;letter-spacing:.06em}.mark b{color:#ff2a1f}
+.top nav{display:flex;gap:4px;font-weight:700;font-size:14px;letter-spacing:.1em;text-transform:uppercase}
+.top nav span{padding:8px 18px;color:#a2a2b6}.top nav .on{background:#e10600;color:#fff;clip-path:polygon(10px 0,100% 0,calc(100% - 10px) 100%,0 100%)}
+.top nav .soon{color:#a2a2b6}.top nav .soon i{font-style:normal;font-size:11px;margin-left:6px;border:1px solid #8b8ba1;padding:1px 6px}
+.wrap{display:grid;grid-template-columns:560px 1fr;gap:56px;padding:64px 48px 0}
+h1{font-style:italic;font-weight:700;text-transform:uppercase;font-size:84px;line-height:.95}
+h1 em{color:#ff2a1f;font-style:italic}
+.lede{margin-top:22px;font-size:20px;color:#a2a2b6;max-width:470px;line-height:1.45}
+.free{margin-top:26px;display:flex;gap:10px}
+.free span{padding:6px 14px;background:#1b1b26;font-weight:700;font-size:13px;letter-spacing:.1em;text-transform:uppercase}
+.btn{display:inline-flex;align-items:center;gap:10px;margin-top:34px;padding:16px 30px;background:#e10600;color:#fff;font-weight:700;letter-spacing:.1em;text-transform:uppercase;clip-path:polygon(12px 0,100% 0,calc(100% - 12px) 100%,0 100%)}
+.ro{display:grid;gap:4px}
+.ro-head{display:flex;justify-content:space-between;color:#8b8ba1;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;padding-bottom:8px}
+.row{display:grid;grid-template-columns:120px 1fr 190px;align-items:center;gap:22px;background:#13131b;padding:20px 24px;min-height:150px}
+.slot{font-weight:900;font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:#a2a2b6}
+.slot b{display:block;color:#fff;background:#e10600;padding:4px 10px;width:max-content;margin-bottom:8px}
+.title{font-style:italic;font-weight:700;font-size:30px;text-transform:uppercase;line-height:1}
+.sub{color:#a2a2b6;margin-top:6px}
+.pod{display:flex;gap:14px;margin-top:12px;font-weight:700}
+.pod span{display:flex;align-items:center;gap:8px}.pod i{width:5px;height:22px;display:inline-block}
+.go{justify-self:end;padding:12px 20px;background:#242432;font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:13px;clip-path:polygon(10px 0,100% 0,calc(100% - 10px) 100%,0 100%)}
+.go.red{background:#e10600}
+.cd{font-weight:900;font-size:40px}.cd small{font-size:14px;color:#a2a2b6;margin:0 8px 0 2px}
+svg{display:block}
+</style></head><body>
+<header class="top"><div class="mark">AEROLABS <b>AI</b></div>
+<nav><span class="on">F1 Data Hub</span><span>Live</span><span>Sessions</span><span>Strategy</span><span class="soon">Aerospace<i>SOON</i></span></nav></header>
+<div class="wrap">
+<section>
+<h1>Every lap,<br><em>decoded.</em></h1>
+<p class="lede">Race replays, timing towers and tyre strategy from every Grand Prix, read like the TV graphics you already know.</p>
+<div class="free"><span>Free</span><span>No login</span><span>No F1 TV needed</span></div>
+<span class="btn">Explore past sessions →</span>
+</section>
+<section class="ro">
+<div class="ro-head"><span>Running order</span><span>Updated 03:24</span></div>
+<div class="row"><div class="slot"><b>Latest</b>Race</div>
+<div><div class="title">Singapore Grand Prix</div><div class="sub">Fastest lap LEC 1:35.202</div>
+<div class="pod"><span><i style="background:#4781d7"></i>1 VER</span><span><i style="background:#e8002d"></i>2 LEC</span><span><i style="background:#27f4d2"></i>3 ANT</span></div></div>
+<svg width="190" height="110" viewBox="0 0 190 110"><path d="M20 70 L52 30 L70 38 L86 58 L100 32 L118 28 L170 46 L176 84 L120 88 L96 80 L60 76 L40 100Z" fill="none" stroke="#e10600" stroke-width="5" stroke-linejoin="round"/><path d="M118 28 L170 46" stroke="#ffd12e" stroke-width="5"/><path d="M20 70 L52 30" stroke="#4c6fff" stroke-width="5"/></svg></div>
+<div class="row"><div class="slot"><b>Up next</b>Practice 1</div>
+<div><div class="title">United States Grand Prix</div><div class="cd" style="margin-top:8px">2<small>d</small>19<small>h</small>36<small>m</small></div></div>
+<span class="go">Strategy history →</span></div>
+<div class="row" style="min-height:96px"><div class="slot"><b>Live</b>Board</div>
+<div><div class="title" style="font-size:24px">Timing tower, tyres &amp; weather</div><div class="sub">Refreshes every 20 seconds during sessions</div></div>
+<span class="go">Live board →</span></div>
+</section></div>
+</body></html>

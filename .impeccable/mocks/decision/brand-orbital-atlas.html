@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0}
+body{width:1440px;height:900px;overflow:hidden;background:#0d1b2a;color:#e8e4d8;font-family:Archivo,sans-serif;position:relative}
+svg.chart{position:absolute;inset:0}
+.top{position:absolute;top:0;left:0;right:0;height:72px;display:flex;align-items:center;justify-content:space-between;padding:0 56px;border-bottom:1px solid rgba(232,228,216,.18)}
+.mark{font-weight:800;letter-spacing:.32em;font-size:18px}.mark b{color:#c9a24a}
+.top nav{display:flex;gap:36px;font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:#b9b5aa}
+.cart{position:absolute;left:56px;top:150px;width:560px;border:1px solid #c9a24a;padding:34px 38px;background:rgba(13,27,42,.9)}
+.cart::before{content:"";position:absolute;inset:6px;border:1px solid rgba(201,162,74,.45);pointer-events:none}
+h1{font-family:"Instrument Serif",serif;font-weight:400;font-size:76px;line-height:.95;letter-spacing:-.01em}
+h1 i{color:#c9a24a}
+.mission{margin-top:20px;font-size:17px;line-height:1.55;color:#cfcabd}
+.act{display:flex;gap:14px;margin-top:28px}
+.btn{padding:14px 24px;font-weight:600;font-size:14px;letter-spacing:.12em;text-transform:uppercase;border:1px solid #e8e4d8}
+.btn.pri{background:#e8e4d8;color:#0d1b2a}
+.lab{position:absolute;font-size:13px;letter-spacing:.16em;text-transform:uppercase}
+.lab b{display:block;font-family:"Instrument Serif",serif;font-weight:400;font-size:30px;letter-spacing:0;text-transform:none;margin-top:4px;color:#fff}
+.lab span{color:#c9a24a}
+</style></head><body>
+<svg class="chart" viewBox="0 0 1440 900">
+<g stroke="rgba(232,228,216,.08)" stroke-width="1">
+<line x1="0" y1="200" x2="1440" y2="200"/><line x1="0" y1="400" x2="1440" y2="400"/><line x1="0" y1="600" x2="1440" y2="600"/><line x1="0" y1="800" x2="1440" y2="800"/>
+<line x1="720" y1="0" x2="720" y2="900"/><line x1="960" y1="0" x2="960" y2="900"/><line x1="1200" y1="0" x2="1200" y2="900"/></g>
+<circle cx="1010" cy="470" r="330" fill="none" stroke="rgba(201,162,74,.35)" stroke-width="1"/>
+<circle cx="1010" cy="470" r="220" fill="none" stroke="rgba(201,162,74,.2)" stroke-width="1"/>
+<ellipse cx="1010" cy="470" rx="400" ry="190" transform="rotate(-18 1010 470)" fill="none" stroke="#e8e4d8" stroke-width="2" stroke-dasharray="10 8"/>
+<circle cx="1374" cy="370" r="7" fill="#e8e4d8"/>
+<path d="M880 420 L930 340 L980 352 L1006 392 L1030 350 L1060 344 L1150 372 L1160 452 L1060 470 L1010 456 L940 450 L905 500Z" fill="none" stroke="#e10600" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="1150" cy="372" r="6" fill="#fff"/>
+<circle cx="1010" cy="470" r="3" fill="#c9a24a"/>
+</svg>
+<header class="top"><div class="mark">AEROLABS <b>AI</b></div><nav><span>F1 Data Hub</span><span>ASTRAEUS</span><span>About</span></nav></header>
+<div class="cart"><h1>Motorsport intelligence, <i>beyond the track.</i></h1>
+<p class="mission">Real-time race analytics and aerodynamic strategy from historical and live Formula 1 data, and an aerospace venture in autonomous asteroid mining.</p>
+<div class="act"><span class="btn pri">Open F1 Data Hub</span><span class="btn">About ASTRAEUS</span></div></div>
+<div class="lab" style="left:900px;top:520px"><span>Live · solid orbit</span><b>F1 Data Hub</b></div>
+<div class="lab" style="left:1180px;top:200px"><span>Under construction · dashed</span><b>ASTRAEUS</b></div>
+</body></html>
