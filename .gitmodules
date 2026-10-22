@@ -1,0 +1,3 @@
+[submodule "ref-app"]
+	path = ref-app
+	url = https://github.com/IAmTomShaw/f1-race-replay.git

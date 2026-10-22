@@ -16,3 +16,13 @@ computed_data/
 
 # OS Files
 .DS_Store
+
+# Server data caches (FastF1 + OpenF1)
+cache/
+
+# Impeccable review captures
+.impeccable/review/
+
+# Claude Code: machine-local settings and the impeccable binary (re-downloaded on first run)
+.claude/settings.local.json
+.claude/skills/impeccable/scripts/bin/

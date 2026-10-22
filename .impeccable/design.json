@@ -1,0 +1,1141 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-21T20:00:00+00:00",
+  "title": "Design System: AeroLabs AI",
+  "extensions": {
+    "colorMeta": {
+      "carbon-ground": {
+        "role": "neutral",
+        "displayName": "Carbon Ground",
+        "canonical": "#0b0b10",
+        "cssVar": "--ground",
+        "tonalRamp": [
+          "oklch(15% 0.011 285)",
+          "oklch(26% 0.011 285)",
+          "oklch(38% 0.011 285)",
+          "oklch(49% 0.011 285)",
+          "oklch(61% 0.011 285)",
+          "oklch(72% 0.011 285)",
+          "oklch(84% 0.011 285)",
+          "oklch(95% 0.011 285)"
+        ],
+        "world": "f1"
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Panel",
+        "canonical": "#13131b",
+        "cssVar": "--panel",
+        "tonalRamp": [
+          "oklch(15% 0.016 285)",
+          "oklch(26% 0.016 285)",
+          "oklch(38% 0.016 285)",
+          "oklch(49% 0.016 285)",
+          "oklch(61% 0.016 285)",
+          "oklch(72% 0.016 285)",
+          "oklch(84% 0.016 285)",
+          "oklch(95% 0.016 285)"
+        ],
+        "world": "f1"
+      },
+      "panel-raised": {
+        "role": "neutral",
+        "displayName": "Raised Panel",
+        "canonical": "#1b1b26",
+        "cssVar": "--panel-2",
+        "tonalRamp": [
+          "oklch(15% 0.021 285)",
+          "oklch(26% 0.021 285)",
+          "oklch(38% 0.021 285)",
+          "oklch(49% 0.021 285)",
+          "oklch(61% 0.021 285)",
+          "oklch(72% 0.021 285)",
+          "oklch(84% 0.021 285)",
+          "oklch(95% 0.021 285)"
+        ],
+        "world": "f1"
+      },
+      "panel-top": {
+        "role": "neutral",
+        "displayName": "Top Panel",
+        "canonical": "#242432",
+        "cssVar": "--panel-3",
+        "tonalRamp": [
+          "oklch(15% 0.026 285)",
+          "oklch(26% 0.026 285)",
+          "oklch(38% 0.026 285)",
+          "oklch(49% 0.026 285)",
+          "oklch(61% 0.026 285)",
+          "oklch(72% 0.026 285)",
+          "oklch(84% 0.026 285)",
+          "oklch(95% 0.026 285)"
+        ],
+        "world": "f1"
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#2b2b3a",
+        "cssVar": "--line",
+        "tonalRamp": [
+          "oklch(15% 0.027 285)",
+          "oklch(26% 0.027 285)",
+          "oklch(38% 0.027 285)",
+          "oklch(49% 0.027 285)",
+          "oklch(61% 0.027 285)",
+          "oklch(72% 0.027 285)",
+          "oklch(84% 0.027 285)",
+          "oklch(95% 0.027 285)"
+        ],
+        "world": "f1"
+      },
+      "data-white": {
+        "role": "neutral",
+        "displayName": "Data White",
+        "canonical": "#f4f4f7",
+        "cssVar": "--text",
+        "tonalRamp": [
+          "oklch(15% 0.004 286)",
+          "oklch(26% 0.004 286)",
+          "oklch(38% 0.004 286)",
+          "oklch(49% 0.004 286)",
+          "oklch(61% 0.004 286)",
+          "oklch(72% 0.004 286)",
+          "oklch(84% 0.004 286)",
+          "oklch(95% 0.004 286)"
+        ],
+        "world": "shared"
+      },
+      "muted-text": {
+        "role": "neutral",
+        "displayName": "Muted Text",
+        "canonical": "#a2a2b6",
+        "cssVar": "--muted",
+        "tonalRamp": [
+          "oklch(15% 0.029 286)",
+          "oklch(26% 0.029 286)",
+          "oklch(38% 0.029 286)",
+          "oklch(49% 0.029 286)",
+          "oklch(61% 0.029 286)",
+          "oklch(72% 0.029 286)",
+          "oklch(84% 0.029 286)",
+          "oklch(95% 0.029 286)"
+        ],
+        "world": "f1"
+      },
+      "faint-text": {
+        "role": "neutral",
+        "displayName": "Faint Text",
+        "canonical": "#8b8ba1",
+        "cssVar": "--faint",
+        "tonalRamp": [
+          "oklch(15% 0.033 285)",
+          "oklch(26% 0.033 285)",
+          "oklch(38% 0.033 285)",
+          "oklch(49% 0.033 285)",
+          "oklch(61% 0.033 285)",
+          "oklch(72% 0.033 285)",
+          "oklch(84% 0.033 285)",
+          "oklch(95% 0.033 285)"
+        ],
+        "world": "f1"
+      },
+      "broadcast-red": {
+        "role": "primary",
+        "displayName": "Broadcast Red",
+        "canonical": "#e10600",
+        "cssVar": "--red",
+        "tonalRamp": [
+          "oklch(15% 0.233 29)",
+          "oklch(26% 0.233 29)",
+          "oklch(38% 0.233 29)",
+          "oklch(49% 0.233 29)",
+          "oklch(61% 0.233 29)",
+          "oklch(72% 0.233 29)",
+          "oklch(84% 0.233 29)",
+          "oklch(95% 0.233 29)"
+        ],
+        "world": "shared"
+      },
+      "broadcast-red-hi": {
+        "role": "primary",
+        "displayName": "Hot Signal Red",
+        "canonical": "#ff2a1f",
+        "cssVar": "--red-hi",
+        "tonalRamp": [
+          "oklch(15% 0.244 29)",
+          "oklch(26% 0.244 29)",
+          "oklch(38% 0.244 29)",
+          "oklch(49% 0.244 29)",
+          "oklch(61% 0.244 29)",
+          "oklch(72% 0.244 29)",
+          "oklch(84% 0.244 29)",
+          "oklch(95% 0.244 29)"
+        ],
+        "world": "shared"
+      },
+      "strip-white": {
+        "role": "neutral",
+        "displayName": "Strip White",
+        "canonical": "#f4f4f7",
+        "cssVar": "--white-strip",
+        "tonalRamp": [
+          "oklch(15% 0.004 286)",
+          "oklch(26% 0.004 286)",
+          "oklch(38% 0.004 286)",
+          "oklch(49% 0.004 286)",
+          "oklch(61% 0.004 286)",
+          "oklch(72% 0.004 286)",
+          "oklch(84% 0.004 286)",
+          "oklch(95% 0.004 286)"
+        ],
+        "world": "f1"
+      },
+      "strip-ink": {
+        "role": "neutral",
+        "displayName": "Strip Ink",
+        "canonical": "#0b0b10",
+        "cssVar": "--ink",
+        "tonalRamp": [
+          "oklch(15% 0.011 285)",
+          "oklch(26% 0.011 285)",
+          "oklch(38% 0.011 285)",
+          "oklch(49% 0.011 285)",
+          "oklch(61% 0.011 285)",
+          "oklch(72% 0.011 285)",
+          "oklch(84% 0.011 285)",
+          "oklch(95% 0.011 285)"
+        ],
+        "world": "f1"
+      },
+      "tyre-soft": {
+        "role": "tertiary",
+        "displayName": "Soft Compound",
+        "canonical": "#e8002d",
+        "cssVar": "--soft",
+        "tonalRamp": [
+          "oklch(15% 0.237 24)",
+          "oklch(26% 0.237 24)",
+          "oklch(38% 0.237 24)",
+          "oklch(49% 0.237 24)",
+          "oklch(61% 0.237 24)",
+          "oklch(72% 0.237 24)",
+          "oklch(84% 0.237 24)",
+          "oklch(95% 0.237 24)"
+        ],
+        "world": "f1"
+      },
+      "tyre-medium": {
+        "role": "tertiary",
+        "displayName": "Medium Compound",
+        "canonical": "#ffd12e",
+        "cssVar": "--medium",
+        "tonalRamp": [
+          "oklch(15% 0.169 91)",
+          "oklch(26% 0.169 91)",
+          "oklch(38% 0.169 91)",
+          "oklch(49% 0.169 91)",
+          "oklch(61% 0.169 91)",
+          "oklch(72% 0.169 91)",
+          "oklch(84% 0.169 91)",
+          "oklch(95% 0.169 91)"
+        ],
+        "world": "f1"
+      },
+      "tyre-hard": {
+        "role": "tertiary",
+        "displayName": "Hard Compound",
+        "canonical": "#f0f0ec",
+        "cssVar": "--hard",
+        "tonalRamp": [
+          "oklch(15% 0.005 106)",
+          "oklch(26% 0.005 106)",
+          "oklch(38% 0.005 106)",
+          "oklch(49% 0.005 106)",
+          "oklch(61% 0.005 106)",
+          "oklch(72% 0.005 106)",
+          "oklch(84% 0.005 106)",
+          "oklch(95% 0.005 106)"
+        ],
+        "world": "f1"
+      },
+      "tyre-inter": {
+        "role": "tertiary",
+        "displayName": "Intermediate Compound",
+        "canonical": "#43b02a",
+        "cssVar": "--inter",
+        "tonalRamp": [
+          "oklch(15% 0.195 140)",
+          "oklch(26% 0.195 140)",
+          "oklch(38% 0.195 140)",
+          "oklch(49% 0.195 140)",
+          "oklch(61% 0.195 140)",
+          "oklch(72% 0.195 140)",
+          "oklch(84% 0.195 140)",
+          "oklch(95% 0.195 140)"
+        ],
+        "world": "f1"
+      },
+      "tyre-wet": {
+        "role": "tertiary",
+        "displayName": "Wet Compound",
+        "canonical": "#0067ad",
+        "cssVar": "--wet",
+        "tonalRamp": [
+          "oklch(15% 0.136 248)",
+          "oklch(26% 0.136 248)",
+          "oklch(38% 0.136 248)",
+          "oklch(49% 0.136 248)",
+          "oklch(61% 0.136 248)",
+          "oklch(72% 0.136 248)",
+          "oklch(84% 0.136 248)",
+          "oklch(95% 0.136 248)"
+        ],
+        "world": "f1"
+      },
+      "speed-slow": {
+        "role": "tertiary",
+        "displayName": "Slow Blue",
+        "canonical": "#4c6fff",
+        "tonalRamp": [
+          "oklch(15% 0.217 269)",
+          "oklch(26% 0.217 269)",
+          "oklch(38% 0.217 269)",
+          "oklch(49% 0.217 269)",
+          "oklch(61% 0.217 269)",
+          "oklch(72% 0.217 269)",
+          "oklch(84% 0.217 269)",
+          "oklch(95% 0.217 269)"
+        ],
+        "world": "f1"
+      },
+      "speed-top": {
+        "role": "tertiary",
+        "displayName": "Top-Speed Yellow",
+        "canonical": "#ffd12e",
+        "tonalRamp": [
+          "oklch(15% 0.169 91)",
+          "oklch(26% 0.169 91)",
+          "oklch(38% 0.169 91)",
+          "oklch(49% 0.169 91)",
+          "oklch(61% 0.169 91)",
+          "oklch(72% 0.169 91)",
+          "oklch(84% 0.169 91)",
+          "oklch(95% 0.169 91)"
+        ],
+        "world": "f1"
+      },
+      "al-ground": {
+        "role": "neutral",
+        "displayName": "Pure Black",
+        "canonical": "#000000",
+        "cssVar": "--al-ground",
+        "world": "aerolabs",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(26% 0 0)",
+          "oklch(38% 0 0)",
+          "oklch(49% 0 0)",
+          "oklch(61% 0 0)",
+          "oklch(72% 0 0)",
+          "oklch(84% 0 0)",
+          "oklch(95% 0 0)"
+        ]
+      },
+      "al-text": {
+        "role": "neutral",
+        "displayName": "Flight White",
+        "canonical": "#ffffff",
+        "cssVar": "--al-text",
+        "world": "aerolabs",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(26% 0 0)",
+          "oklch(38% 0 0)",
+          "oklch(49% 0 0)",
+          "oklch(61% 0 0)",
+          "oklch(72% 0 0)",
+          "oklch(84% 0 0)",
+          "oklch(95% 0 0)"
+        ]
+      },
+      "al-muted": {
+        "role": "neutral",
+        "displayName": "Cool Grey",
+        "canonical": "#9aa0a8",
+        "cssVar": "--al-muted",
+        "world": "aerolabs",
+        "tonalRamp": [
+          "oklch(15% 0.012 255)",
+          "oklch(26% 0.012 255)",
+          "oklch(38% 0.012 255)",
+          "oklch(49% 0.012 255)",
+          "oklch(61% 0.012 255)",
+          "oklch(72% 0.012 255)",
+          "oklch(84% 0.012 255)",
+          "oklch(95% 0.012 255)"
+        ]
+      },
+      "al-line": {
+        "role": "neutral",
+        "displayName": "Hairline Grey",
+        "canonical": "#1f2226",
+        "cssVar": "--al-line",
+        "world": "aerolabs",
+        "tonalRamp": [
+          "oklch(15% 0.008 255)",
+          "oklch(26% 0.008 255)",
+          "oklch(38% 0.008 255)",
+          "oklch(49% 0.008 255)",
+          "oklch(61% 0.008 255)",
+          "oklch(72% 0.008 255)",
+          "oklch(84% 0.008 255)",
+          "oklch(95% 0.008 255)"
+        ]
+      },
+      "al-accent": {
+        "role": "primary",
+        "displayName": "Logo Cyan",
+        "canonical": "#00c3ff",
+        "cssVar": "--al-accent",
+        "world": "aerolabs",
+        "tonalRamp": [
+          "oklch(15% 0.16 230)",
+          "oklch(26% 0.16 230)",
+          "oklch(38% 0.16 230)",
+          "oklch(49% 0.16 230)",
+          "oklch(61% 0.16 230)",
+          "oklch(72% 0.16 230)",
+          "oklch(84% 0.16 230)",
+          "oklch(95% 0.16 230)"
+        ]
+      },
+      "al-accent-hi": {
+        "role": "primary",
+        "displayName": "Bright Cyan",
+        "canonical": "#4fd6ff",
+        "cssVar": "--al-accent-hi",
+        "world": "aerolabs",
+        "tonalRamp": [
+          "oklch(15% 0.13 222)",
+          "oklch(26% 0.13 222)",
+          "oklch(38% 0.13 222)",
+          "oklch(49% 0.13 222)",
+          "oklch(61% 0.13 222)",
+          "oklch(72% 0.13 222)",
+          "oklch(84% 0.13 222)",
+          "oklch(95% 0.13 222)"
+        ]
+      },
+      "al-on-accent": {
+        "role": "neutral",
+        "displayName": "Accent Ink",
+        "canonical": "#000000",
+        "cssVar": "--al-on-accent",
+        "world": "aerolabs",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(26% 0 0)",
+          "oklch(38% 0 0)",
+          "oklch(49% 0 0)",
+          "oklch(61% 0 0)",
+          "oklch(72% 0 0)",
+          "oklch(84% 0 0)",
+          "oklch(95% 0 0)"
+        ]
+      },
+      "al-scrollbar": {
+        "role": "neutral",
+        "displayName": "Scrollbar Grey",
+        "canonical": "#2a2d31",
+        "world": "aerolabs",
+        "tonalRamp": [
+          "oklch(15% 0.008 255)",
+          "oklch(26% 0.008 255)",
+          "oklch(38% 0.008 255)",
+          "oklch(49% 0.008 255)",
+          "oklch(61% 0.008 255)",
+          "oklch(72% 0.008 255)",
+          "oklch(84% 0.008 255)",
+          "oklch(95% 0.008 255)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Session name in the white lower-third strip; italic, uppercase."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section heads after a skewed red sliver; italic, uppercase."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Driver codes and Grand Prix names; italic."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "Countdown, strategy share, tower positions; upright 900, tabular."
+      },
+      "readout": {
+        "displayName": "Readout",
+        "purpose": "Telemetry and weather values with small muted units."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "State and note prose, max 68ch; tabular numerals site-wide."
+      },
+      "control": {
+        "displayName": "Control",
+        "purpose": "Tabs, buttons, segments; uppercase, tracked."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Column heads and readout labels naming data; uppercase, wide tracking."
+      },
+      "display-hero": {
+        "displayName": "Hero Display",
+        "purpose": "Landing headline in the hero title strip; italic, uppercase; Persuade register only."
+      },
+      "headline-band": {
+        "displayName": "Band Headline",
+        "purpose": "Landing band heads inside the compact strip; italic, uppercase."
+      },
+      "cta": {
+        "displayName": "CTA",
+        "purpose": "Landing way-in tabs; italic, uppercase."
+      },
+      "hud-figure": {
+        "displayName": "HUD Figure",
+        "purpose": "Hero HUD car speed and replay clock; upright 900, tabular."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Landing hero offer paragraph, max 36rem."
+      },
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "Aerolabs AI text wordmark; upright 900, uppercase, tracked; logo slot placeholder."
+      },
+      "al-display": {
+        "displayName": "Showcase Display",
+        "purpose": "Hero statement on / only; Archivo 700 uppercase, three centred lines.",
+        "world": "aerolabs"
+      },
+      "al-closing": {
+        "displayName": "Closing",
+        "purpose": "Closing call-to-action line on /; 800 uppercase.",
+        "world": "aerolabs"
+      },
+      "al-product-name": {
+        "displayName": "Product Name",
+        "purpose": "Product names in the showcase; 800 uppercase.",
+        "world": "aerolabs"
+      },
+      "al-section": {
+        "displayName": "Section",
+        "purpose": "Centred section heads on /, sentence case.",
+        "world": "aerolabs"
+      },
+      "al-section-caps": {
+        "displayName": "Section Caps",
+        "purpose": "Vision and latest-list heads on /, uppercase.",
+        "world": "aerolabs"
+      },
+      "al-stat": {
+        "displayName": "Stat",
+        "purpose": "Live numbers row; 700 tabular, label beneath.",
+        "world": "aerolabs"
+      },
+      "al-spec": {
+        "displayName": "Spec",
+        "purpose": "Product spec figures; 700 tabular, units in small grey 600.",
+        "world": "aerolabs"
+      },
+      "al-statement": {
+        "displayName": "Statement",
+        "purpose": "Vision paragraph, max 30em.",
+        "world": "aerolabs"
+      },
+      "al-lede": {
+        "displayName": "Showcase Lede",
+        "purpose": "Hero sub-line, grey, max 34rem.",
+        "world": "aerolabs"
+      },
+      "al-body": {
+        "displayName": "Showcase Body",
+        "purpose": "Product copy, grey, max 34rem.",
+        "world": "aerolabs"
+      },
+      "al-row-code": {
+        "displayName": "Row Code",
+        "purpose": "Driver codes in classification rows; 800.",
+        "world": "aerolabs"
+      },
+      "al-control": {
+        "displayName": "Showcase Control",
+        "purpose": "Button labels and inline action links; 700 uppercase.",
+        "world": "aerolabs"
+      },
+      "al-nav": {
+        "displayName": "Showcase Nav",
+        "purpose": "Header links and header action; 400 sentence case.",
+        "world": "aerolabs"
+      },
+      "al-status": {
+        "displayName": "Status",
+        "purpose": "Live now / Under construction beside a status mark.",
+        "world": "aerolabs"
+      },
+      "al-label": {
+        "displayName": "Showcase Label",
+        "purpose": "Labels under spec and stat figures; 600 tracked uppercase grey.",
+        "world": "aerolabs"
+      },
+      "al-caption": {
+        "displayName": "Caption",
+        "purpose": "Figure captions on /, grey.",
+        "world": "aerolabs"
+      },
+      "al-wordmark": {
+        "displayName": "Showcase Wordmark",
+        "purpose": "AeroLabs AI wordmark on /; 800 uppercase 0.16em, AI in logo cyan.",
+        "world": "aerolabs"
+      }
+    },
+    "shadows": [
+      {
+        "name": "strip-lift",
+        "value": "filter: drop-shadow(0 10px 24px rgb(0 0 0 / 0.45))",
+        "purpose": "Lifts the broadcast title strip off the page."
+      },
+      {
+        "name": "tooltip",
+        "value": "0 8px 20px rgb(0 0 0 / 0.45)",
+        "purpose": "Speed comparison crosshair tooltip."
+      },
+      {
+        "name": "hero-strip-lift",
+        "value": "filter: drop-shadow(0 12px 28px rgb(0 0 0 / 0.5))",
+        "purpose": "Lifts the landing hero title strip."
+      },
+      {
+        "name": "band-strip-lift",
+        "value": "filter: drop-shadow(0 8px 20px rgb(0 0 0 / 0.4))",
+        "purpose": "Lifts the landing band strip headings."
+      },
+      {
+        "name": "hero-scrim",
+        "value": "linear-gradient(to top, #0b0b10 30%, rgb(11 11 16 / 0)) over the lower 46%",
+        "purpose": "Keeps hero overlay text legible over the racing line."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.23, 1, 0.32, 1)",
+        "purpose": "All state transitions and the tower row slide."
+      },
+      {
+        "name": "fast",
+        "value": "160ms",
+        "purpose": "Hover and press colour changes."
+      },
+      {
+        "name": "med",
+        "value": "240ms",
+        "purpose": "Declared medium duration."
+      },
+      {
+        "name": "tower-slide",
+        "value": "600ms",
+        "purpose": "FLIP slide when tower positions change."
+      },
+      {
+        "name": "car-glide",
+        "value": "1.2s linear",
+        "purpose": "Live car markers gliding between refreshes."
+      },
+      {
+        "name": "live-pulse",
+        "value": "1.6s ease-in-out infinite",
+        "purpose": "Live badge dot, only while a session runs."
+      },
+      {
+        "name": "start-lights",
+        "value": "3.2s, 0.3s stagger",
+        "purpose": "Loading sequence for slow session loads."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "movement and animations off; colour and opacity transitions kept",
+        "purpose": "prefers-reduced-motion cancels every animation and transition."
+      },
+      {
+        "name": "strip-wipe",
+        "value": "700ms ease-out, clip-path inset wipe",
+        "purpose": "Hero title strip wipes in once on load, only when motion is welcome."
+      },
+      {
+        "name": "hero-replay",
+        "value": "4x rate, 2.5s hold, loop",
+        "purpose": "Ghost-lap replay driving the HUD; reduced motion shows the completed lap."
+      },
+      {
+        "name": "cta-nudge",
+        "value": "translateX(4px), 160ms",
+        "purpose": "Arrow nudge on landing CTA tab hover."
+      },
+      {
+        "name": "al-press",
+        "value": "scale(0.97), 160ms",
+        "purpose": "Press feedback on showcase buttons and the header action; cancelled under reduced motion.",
+        "world": "aerolabs"
+      },
+      {
+        "name": "al-arrow-nudge",
+        "value": "translateX(3px), 160ms",
+        "purpose": "Arrow nudge on the inline action link hover.",
+        "world": "aerolabs"
+      },
+      {
+        "name": "al-data-arrive",
+        "value": "200ms ease-out, opacity 0 and translateY(4px) via @starting-style, 40ms stagger",
+        "purpose": "Live specs, rows, list items and the lap fade in as data arrives.",
+        "world": "aerolabs"
+      },
+      {
+        "name": "al-hero-lap",
+        "value": "heroReplay: 4x rate, 2.5s hold, loop; completed lap still under reduced motion",
+        "purpose": "Live lap under the hero on /.",
+        "world": "aerolabs"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "stack",
+        "value": "960px",
+        "world": "f1"
+      },
+      {
+        "name": "phone",
+        "value": "640px",
+        "world": "f1"
+      },
+      {
+        "name": "al-stack",
+        "value": "900px",
+        "world": "aerolabs"
+      },
+      {
+        "name": "al-phone",
+        "value": "640px",
+        "world": "aerolabs"
+      }
+    ],
+    "shapes": [
+      {
+        "name": "slant-control",
+        "value": "10px",
+        "purpose": "Parallelogram cut on tabs, buttons, countdown.",
+        "world": "f1"
+      },
+      {
+        "name": "slant-segment",
+        "value": "8px",
+        "purpose": "Segmented control cells.",
+        "world": "f1"
+      },
+      {
+        "name": "slant-strip",
+        "value": "14px",
+        "purpose": "Title strip segments and weather band.",
+        "world": "f1"
+      },
+      {
+        "name": "slant-hero-plate",
+        "value": "12px",
+        "purpose": "Hero countdown plate.",
+        "world": "f1"
+      },
+      {
+        "name": "slant-hero-cta",
+        "value": "16px",
+        "purpose": "Landing CTA tabs.",
+        "world": "f1"
+      },
+      {
+        "name": "al-square",
+        "value": "0 radius, no clip-path, 1px borders",
+        "purpose": "Buttons, header action and metadata tags on /.",
+        "world": "aerolabs"
+      },
+      {
+        "name": "al-status-mark",
+        "value": "9px circle; solid al-accent = live, 1.5px dashed al-muted ring = under construction",
+        "purpose": "Status marks, always with words.",
+        "world": "aerolabs"
+      },
+      {
+        "name": "al-orbit",
+        "value": "1.2px #5b626b circle (Earth orbit), 1.5px #8a9099 ellipse dashed 6 6, 12-point rock #111316 fill with 1.5px white stroke dashed 4 3",
+        "purpose": "ASTRAEUS orbital context diagram.",
+        "world": "aerolabs"
+      }
+    ],
+    "ghostLap": {
+      "ghostOpacity": 0.32,
+      "liveOpacity": 1,
+      "lineWidth": 7,
+      "outlineWidth": 22,
+      "speedStops": [
+        "#4c6fff",
+        "#e10600",
+        "#ffd12e"
+      ],
+      "world": "f1 (also the live lap on /, outline #15171a)"
+    },
+    "worlds": [
+      {
+        "id": "aerolabs",
+        "name": "AeroLabs AI company page",
+        "northStar": "The Flight Hardware Showcase",
+        "routes": [
+          "/"
+        ],
+        "scope": "body[data-section=\"aerolabs\"]",
+        "tokenPrefix": "al-"
+      },
+      {
+        "id": "f1",
+        "name": "F1 Data Hub",
+        "northStar": "The Broadcast Graphics Package",
+        "routes": [
+          "/f1",
+          "/f1/sessions/*",
+          "/f1/live",
+          "/f1/strategy/*"
+        ],
+        "scope": "body[data-section=\"f1\"] (default for unmatched routes)",
+        "tokenPrefix": "(unprefixed)"
+      }
+    ],
+    "shared": [
+      "AeroLabs AI logo mark (dark colourway)",
+      "--fast 160ms",
+      "--ease-out",
+      "--gutter",
+      "--max 1440px",
+      "reduced-motion handling",
+      "header element with per-section nav",
+      "F1 Data Hub data graphics on / as product output: speed-scale lap replay, team-colour slivers"
+    ],
+    "retired": [
+      {
+        "world": "The Wind Tunnel (formerly /)",
+        "source": "frontend/assets/js/flow.js",
+        "status": "not imported by any page; not part of either world"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Slanted red action, one per view (e.g. open the full session).",
+      "html": "<button class=\"ds-btn-primary\">Open full session <svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"square\" aria-hidden=\"true\"><path d=\"M4 12h15M13 6l6 6-6 6\"/></svg></button>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; gap: 8px; min-height: 40px; padding: 0 20px; border: 0; font-family: var(--font, \"Titillium Web\", system-ui, sans-serif); font-weight: 700; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.08em; cursor: pointer; clip-path: polygon(var(--slant, 10px) 0, 100% 0, calc(100% - var(--slant, 10px)) 100%, 0 100%); transition: background-color var(--fast, 160ms) var(--ease-out, cubic-bezier(0.23,1,0.32,1)), color var(--fast, 160ms) var(--ease-out, cubic-bezier(0.23,1,0.32,1)); background: var(--red, #e10600); color: #fff; } .ds-btn-primary:hover { background: var(--red-hi, #ff2a1f); } .ds-btn-primary:active { transform: translateY(1px); } .ds-btn-primary:focus-visible { outline: none; box-shadow: inset 0 0 0 2px var(--text, #f4f4f7); }",
+      "world": "f1"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Slanted neutral action: replay, retry.",
+      "html": "<button class=\"ds-btn\"><svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"square\" aria-hidden=\"true\"><path d=\"M4 12a8 8 0 1 0 2.4-5.7\"/><path d=\"M4 4v4.5h4.5\"/></svg> Replay</button>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; gap: 8px; min-height: 40px; padding: 0 20px; border: 0; font-family: var(--font, \"Titillium Web\", system-ui, sans-serif); font-weight: 700; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.08em; cursor: pointer; clip-path: polygon(var(--slant, 10px) 0, 100% 0, calc(100% - var(--slant, 10px)) 100%, 0 100%); transition: background-color var(--fast, 160ms) var(--ease-out, cubic-bezier(0.23,1,0.32,1)), color var(--fast, 160ms) var(--ease-out, cubic-bezier(0.23,1,0.32,1)); background: var(--panel-3, #242432); color: var(--text, #f4f4f7); } .ds-btn:hover { background: var(--line, #2b2b3a); } .ds-btn:active { transform: translateY(1px); } .ds-btn:focus-visible { outline: none; box-shadow: inset 0 0 0 2px var(--text, #f4f4f7); }",
+      "world": "f1"
+    },
+    {
+      "name": "Segmented Control",
+      "kind": "chip",
+      "refersTo": "segment",
+      "description": "Session type and replay speed pickers; pressed segment is red.",
+      "html": "<div class=\"ds-seg\" role=\"group\"><button aria-pressed=\"false\">1×</button><button aria-pressed=\"true\">4×</button><button aria-pressed=\"false\">10×</button></div>",
+      "css": ".ds-seg { display: inline-flex; gap: 2px; } .ds-seg button { min-height: 36px; min-width: 52px; padding: 0 14px; border: 0; cursor: pointer; font-family: var(--font, \"Titillium Web\", system-ui, sans-serif); background: var(--panel-2, #1b1b26); color: var(--muted, #a2a2b6); font-weight: 700; font-size: 0.85rem; letter-spacing: 0.06em; clip-path: polygon(8px 0, 100% 0, calc(100% - 8px) 100%, 0 100%); transition: background-color var(--fast, 160ms) var(--ease-out, cubic-bezier(0.23,1,0.32,1)), color var(--fast, 160ms) var(--ease-out, cubic-bezier(0.23,1,0.32,1)); } .ds-seg button:hover { color: var(--text, #f4f4f7); background: var(--panel-3, #242432); } .ds-seg button[aria-pressed=\"true\"] { background: var(--red, #e10600); color: #fff; } .ds-seg button:focus-visible { outline: none; box-shadow: inset 0 0 0 2px var(--text, #f4f4f7); }",
+      "world": "f1"
+    },
+    {
+      "name": "Season Select",
+      "kind": "input",
+      "refersTo": "select",
+      "description": "Square select with a label-type field caption.",
+      "html": "<label class=\"ds-field\">Season<select class=\"ds-select\"><option>2026</option><option>2025</option></select></label>",
+      "css": ".ds-field { display: inline-flex; flex-direction: column; gap: 4px; font-family: var(--font, \"Titillium Web\", system-ui, sans-serif); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: var(--muted, #a2a2b6); } .ds-select { appearance: none; min-height: 40px; padding: 0 40px 0 14px; border: 1px solid var(--line, #2b2b3a); border-radius: 0; background: var(--panel-2, #1b1b26) url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none' stroke='%23a2a2b6' stroke-width='1.8'%3E%3Cpath d='m1 1.5 5 5 5-5'/%3E%3C/svg%3E\") no-repeat right 14px center; font-family: var(--font, \"Titillium Web\", system-ui, sans-serif); font-weight: 600; font-size: 0.95rem; letter-spacing: 0; text-transform: none; color: var(--text, #f4f4f7); cursor: pointer; transition: border-color 160ms; } .ds-select:hover { border-color: var(--faint, #8b8ba1); } .ds-select:focus-visible { outline: none; border-color: var(--text, #f4f4f7); }",
+      "world": "f1"
+    },
+    {
+      "name": "Top Bar Navigation",
+      "kind": "nav",
+      "refersTo": "nav-tab",
+      "description": "Sticky carbon bar, red top rule, Aerolabs AI wordmark slot, slanted tabs; current page is red; Aerospace shown as a quiet Soon item.",
+      "html": "<header class=\"ds-topbar\"><a class=\"ds-wordmark\" href=\"#\">Aerolabs <span>AI</span></a><nav class=\"ds-nav\"><a href=\"#\" aria-current=\"page\">F1 Data Hub</a><a href=\"#\">Sessions</a><a href=\"#\">Live</a><a href=\"#\">Strategy</a><span class=\"ds-soon\" aria-disabled=\"true\">Aerospace <small>Soon</small></span></nav></header>",
+      "css": ".ds-topbar { display: flex; align-items: stretch; gap: 32px; height: 56px; padding: 0 24px; background: rgb(11 11 16 / 0.94); border-top: 3px solid var(--red, #e10600); border-bottom: 1px solid var(--line, #2b2b3a); font-family: var(--font, \"Titillium Web\", system-ui, sans-serif); color: var(--text, #f4f4f7); } .ds-wordmark { display: flex; align-items: center; gap: 8px; color: inherit; text-decoration: none; font-weight: 900; text-transform: uppercase; letter-spacing: 0.08em; font-size: 1.2rem; white-space: nowrap; } .ds-wordmark span { color: var(--red-hi, #ff2a1f); } .ds-nav { display: flex; align-items: stretch; gap: 2px; } .ds-nav a { display: flex; align-items: center; padding: 0 20px; margin: 10px 0; text-decoration: none; font-weight: 700; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted, #a2a2b6); clip-path: polygon(var(--slant, 10px) 0, 100% 0, calc(100% - var(--slant, 10px)) 100%, 0 100%); transition: background-color var(--fast, 160ms) var(--ease-out, cubic-bezier(0.23,1,0.32,1)), color var(--fast, 160ms) var(--ease-out, cubic-bezier(0.23,1,0.32,1)); } .ds-nav a:hover { color: var(--text, #f4f4f7); background: var(--panel-2, #1b1b26); } .ds-nav a[aria-current=\"page\"] { background: var(--red, #e10600); color: #fff; } .ds-nav a:focus-visible { outline: 2px solid var(--text, #f4f4f7); outline-offset: 2px; } .ds-soon { display: flex; align-items: center; gap: 8px; padding: 0 16px; color: var(--muted, #a2a2b6); font-weight: 700; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.08em; white-space: nowrap; cursor: default; } .ds-soon small { border: 1px solid var(--faint, #8b8ba1); padding: 0 6px; font-size: 0.65rem; letter-spacing: 0.12em; line-height: 1.5; }",
+      "world": "f1"
+    },
+    {
+      "name": "Broadcast Title Strip",
+      "kind": "custom",
+      "refersTo": "strip-title",
+      "description": "Lower third opening every page: red tag, white title plate, raised meta segment.",
+      "html": "<header class=\"ds-strip\"><span class=\"ds-strip-tag\">R17</span><div class=\"ds-strip-title\"><h1>Singapore Grand Prix</h1></div><div class=\"ds-strip-meta\"><b>Race</b> Oct 11, 2026</div></header>",
+      "css": ".ds-strip { display: flex; align-items: stretch; font-family: var(--font, \"Titillium Web\", system-ui, sans-serif); filter: drop-shadow(0 10px 24px rgb(0 0 0 / 0.45)); } .ds-strip-tag { display: flex; align-items: center; padding: 0 22px 0 18px; margin-right: -10px; position: relative; z-index: 1; background: var(--red, #e10600); color: #fff; font-weight: 700; font-style: italic; text-transform: uppercase; font-size: 1.1rem; letter-spacing: 0.04em; clip-path: polygon(0 0, 100% 0, calc(100% - 14px) 100%, 0 100%); } .ds-strip-title { display: flex; align-items: center; min-height: 64px; padding: 6px 40px 6px 30px; background: var(--white-strip, #f4f4f7); color: var(--ink, #0b0b10); clip-path: polygon(14px 0, 100% 0, calc(100% - 14px) 100%, 0 100%); } .ds-strip-title h1 { margin: 0; line-height: 1.1; font-size: clamp(1.6rem, 3.2vw, 2.5rem); font-style: italic; font-weight: 700; text-transform: uppercase; letter-spacing: 0.005em; } .ds-strip-meta { display: flex; align-items: center; gap: 18px; padding: 6px 30px; margin-left: -12px; background: var(--panel-2, #1b1b26); color: var(--muted, #a2a2b6); font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.85rem; clip-path: polygon(14px 0, 100% 0, calc(100% - 14px) 100%, 0 100%); } .ds-strip-meta b { color: var(--text, #f4f4f7); font-weight: 700; }",
+      "world": "f1"
+    },
+    {
+      "name": "Timing Tower",
+      "kind": "custom",
+      "refersTo": "tower-row",
+      "description": "Classification rows stacked with 2px seams: position, team sliver, code, name, value.",
+      "html": "<div class=\"ds-tower\"><div class=\"ds-row ds-leader\"><span class=\"ds-pos\">1</span><span class=\"ds-team\" style=\"--team:#3671c6\"></span><span class=\"ds-code\">VER</span><span class=\"ds-name\">Max Verstappen</span><span class=\"ds-val\">1:42:00.785</span></div><div class=\"ds-row\"><span class=\"ds-pos\">2</span><span class=\"ds-team\" style=\"--team:#e8002d\"></span><span class=\"ds-code\">LEC</span><span class=\"ds-name\">Charles Leclerc</span><span class=\"ds-val\">+7.335</span></div></div>",
+      "css": ".ds-tower { display: grid; gap: 2px; font-family: var(--font, \"Titillium Web\", system-ui, sans-serif); color: var(--text, #f4f4f7); font-variant-numeric: tabular-nums; } .ds-row { display: grid; grid-template-columns: 40px 5px 52px minmax(0, 1fr) auto; align-items: center; gap: 10px; min-height: 34px; padding-right: 12px; background: var(--panel, #13131b); transition: background-color 160ms; } .ds-row:hover { background: var(--panel-2, #1b1b26); } .ds-pos { align-self: stretch; display: grid; place-items: center; background: var(--panel-3, #242432); font-weight: 900; } .ds-leader .ds-pos { background: var(--white-strip, #f4f4f7); color: var(--ink, #0b0b10); } .ds-team { align-self: stretch; margin: 6px 0; background: var(--team, #8b8ba1); } .ds-code { font-weight: 700; font-style: italic; font-size: 1.05rem; letter-spacing: 0.04em; } .ds-name { color: var(--muted, #a2a2b6); font-size: 0.85rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; } .ds-val { font-weight: 600; font-size: 0.95rem; text-align: right; }",
+      "world": "f1"
+    },
+    {
+      "name": "Tyre Disc",
+      "kind": "custom",
+      "refersTo": "tyre-disc",
+      "description": "Compound ring with its letter; colour never stands alone.",
+      "html": "<span class=\"ds-tyres\"><span class=\"ds-tyre\" style=\"--c:#e8002d\">S</span><span class=\"ds-tyre\" style=\"--c:#ffd12e\">M</span><span class=\"ds-tyre\" style=\"--c:#f0f0ec\">H</span><span class=\"ds-tyre\" style=\"--c:#43b02a\">I</span><span class=\"ds-tyre\" style=\"--c:#0067ad\">W</span></span>",
+      "css": ".ds-tyres { display: inline-flex; gap: 8px; } .ds-tyre { display: inline-grid; place-items: center; width: 24px; height: 24px; border-radius: 50%; border: 3px solid var(--c, #8b8ba1); background: var(--ink, #0b0b10); color: var(--c, #8b8ba1); font-family: var(--font, \"Titillium Web\", system-ui, sans-serif); font-size: 0.7rem; font-weight: 900; line-height: 1; }",
+      "world": "f1"
+    },
+    {
+      "name": "Start Lights Loader",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "Five two-lamp lights that light in sequence during slow session loads.",
+      "html": "<div class=\"ds-lights\" aria-hidden=\"true\"><span><i></i><i></i></span><span><i></i><i></i></span><span><i></i><i></i></span><span><i></i><i></i></span><span><i></i><i></i></span></div>",
+      "css": ".ds-lights { display: flex; gap: 10px; } .ds-lights span { display: grid; gap: 5px; padding: 6px 5px; background: #08080b; border: 1px solid var(--line, #2b2b3a); } .ds-lights i { width: 16px; height: 16px; border-radius: 50%; background: #2a0b0b; animation: ds-light 3.2s infinite; } .ds-lights span:nth-child(2) i { animation-delay: 0.3s; } .ds-lights span:nth-child(3) i { animation-delay: 0.6s; } .ds-lights span:nth-child(4) i { animation-delay: 0.9s; } .ds-lights span:nth-child(5) i { animation-delay: 1.2s; } @keyframes ds-light { 0%, 6% { background: #2a0b0b; } 10%, 78% { background: var(--red-hi, #ff2a1f); } 82%, 100% { background: #2a0b0b; } } @media (prefers-reduced-motion: reduce) { .ds-lights i { animation: none; } }",
+      "world": "f1"
+    },
+    {
+      "name": "Hero CTA Tabs",
+      "kind": "button",
+      "refersTo": "hero-cta-primary",
+      "description": "Landing ways in: three 72px slanted tabs, only the primary in red.",
+      "html": "<nav class=\"ds-cta\"><a class=\"ds-cta-main\" href=\"#\">Past sessions <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"square\" aria-hidden=\"true\"><path d=\"M4 12h15M13 6l6 6-6 6\"/></svg></a><a href=\"#\">Live board <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"square\" aria-hidden=\"true\"><path d=\"M4 12h15M13 6l6 6-6 6\"/></svg></a><a href=\"#\">Strategy <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"square\" aria-hidden=\"true\"><path d=\"M4 12h15M13 6l6 6-6 6\"/></svg></a></nav>",
+      "css": ".ds-cta { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 4px; font-family: var(--font, \"Titillium Web\", system-ui, sans-serif); } .ds-cta a { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 72px; padding: 0 32px; background: var(--panel-2, #1b1b26); color: var(--text, #f4f4f7); text-decoration: none; font-weight: 700; font-style: italic; font-size: 1.35rem; text-transform: uppercase; letter-spacing: 0.02em; clip-path: polygon(16px 0, 100% 0, calc(100% - 16px) 100%, 0 100%); transition: background-color var(--fast, 160ms) var(--ease-out, cubic-bezier(0.23,1,0.32,1)); } .ds-cta a:hover { background: var(--panel-3, #242432); } .ds-cta svg { width: 22px; height: 22px; flex: none; transition: transform var(--fast, 160ms) var(--ease-out, cubic-bezier(0.23,1,0.32,1)); } .ds-cta a:hover svg { transform: translateX(4px); } .ds-cta a.ds-cta-main { background: var(--red, #e10600); color: #fff; } .ds-cta a.ds-cta-main:hover { background: var(--red-hi, #ff2a1f); } .ds-cta a:focus-visible { outline: none; box-shadow: inset 0 0 0 3px var(--text, #f4f4f7); }",
+      "world": "f1"
+    },
+    {
+      "name": "Hero HUD Readout",
+      "kind": "custom",
+      "refersTo": "hud-cell",
+      "description": "Onboard-style readout cells over the hero lap: driver, speed, clock, speed key.",
+      "html": "<dl class=\"ds-hud\"><div><dt>Fastest lap</dt><dd><i style=\"--team:#e8002d\"></i>LEC</dd></div><div><dt>Car speed</dt><dd>260<small>km/h</small></dd></div><div><dt>Replay ×4</dt><dd>1:35.202</dd></div><div class=\"ds-hud-scale\"><dt>Speed key</dt><dd><span>66</span><i></i><span>291 km/h</span></dd></div></dl>",
+      "css": ".ds-hud { display: flex; flex-wrap: wrap; gap: 2px; margin: 0; font-family: var(--font, \"Titillium Web\", system-ui, sans-serif); color: var(--text, #f4f4f7); font-variant-numeric: tabular-nums; } .ds-hud div { background: rgb(19 19 27 / 0.94); padding: 10px 20px 12px; min-width: 132px; } .ds-hud dt { color: var(--faint, #8b8ba1); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; } .ds-hud dd { margin: 0; display: flex; align-items: baseline; gap: 4px; font-size: 2.1rem; font-weight: 900; line-height: 1.1; } .ds-hud dd small { font-size: 0.85rem; color: var(--muted, #a2a2b6); font-weight: 600; } .ds-hud dd i { align-self: center; width: 6px; height: 1.6rem; margin-right: 8px; background: var(--team, #8b8ba1); } .ds-hud div:first-child dd { font-style: italic; font-weight: 700; } .ds-hud-scale dd { gap: 10px; align-items: center; font-size: 0.95rem; font-weight: 700; height: 2.3rem; } .ds-hud-scale dd i { width: 120px; height: 6px; margin: 0; background: linear-gradient(90deg, #4c6fff, var(--red, #e10600), #ffd12e); }",
+      "world": "f1"
+    },
+    {
+      "name": "Band Strip Heading",
+      "kind": "custom",
+      "refersTo": "band-strip-title",
+      "description": "Compact title strip opening each landing band.",
+      "html": "<div class=\"ds-band-strip\"><span class=\"ds-bs-tag\">Sessions</span><div class=\"ds-bs-title\"><h2>Replay any session</h2></div></div>",
+      "css": ".ds-band-strip { display: flex; align-items: stretch; font-family: var(--font, \"Titillium Web\", system-ui, sans-serif); filter: drop-shadow(0 8px 20px rgb(0 0 0 / 0.4)); } .ds-bs-tag { display: flex; align-items: center; padding: 0 18px 0 14px; margin-right: -10px; position: relative; z-index: 1; background: var(--red, #e10600); color: #fff; font-weight: 700; font-style: italic; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.04em; clip-path: polygon(0 0, 100% 0, calc(100% - 14px) 100%, 0 100%); } .ds-bs-title { display: flex; align-items: center; padding: 8px 32px 9px 24px; background: var(--white-strip, #f4f4f7); color: var(--ink, #0b0b10); clip-path: polygon(14px 0, 100% 0, calc(100% - 14px) 100%, 0 100%); } .ds-bs-title h2 { margin: 0; line-height: 1.1; font-size: clamp(1.5rem, 2.6vw, 2.2rem); font-style: italic; font-weight: 700; text-transform: uppercase; }",
+      "world": "f1"
+    },
+    {
+      "name": "Showcase Primary Button",
+      "kind": "button",
+      "refersTo": "al-button-primary",
+      "world": "aerolabs",
+      "description": "Square logo-cyan action with black type; Open F1 Data Hub only.",
+      "html": "<a class=\"ds-al-btn ds-al-btn-primary\" href=\"#\">Open F1 Data Hub</a>",
+      "css": ".ds-al-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 64px; padding: 0 28px; border: 1px solid var(--al-line, #1f2226); background: transparent; color: var(--al-muted, #9aa0a8); text-decoration: none; font-family: \"Archivo\", system-ui, sans-serif; font-weight: 700; font-size: 0.95rem; letter-spacing: 0.02em; text-transform: uppercase; cursor: pointer; transition: background-color 160ms cubic-bezier(0.23, 1, 0.32, 1), color 160ms cubic-bezier(0.23, 1, 0.32, 1), border-color 160ms cubic-bezier(0.23, 1, 0.32, 1), transform 160ms cubic-bezier(0.23, 1, 0.32, 1); } .ds-al-btn:hover { color: var(--al-text, #ffffff); border-color: var(--al-muted, #9aa0a8); } .ds-al-btn:active { transform: scale(0.97); } .ds-al-btn:focus-visible { outline: 2px solid var(--al-accent, #00c3ff); outline-offset: 2px; } .ds-al-btn-primary { background: var(--al-accent, #00c3ff); border-color: var(--al-accent, #00c3ff); color: var(--al-on-accent, #000000); } .ds-al-btn-primary:hover { background: var(--al-accent-hi, #4fd6ff); border-color: var(--al-accent-hi, #4fd6ff); color: var(--al-on-accent, #000000); }"
+    },
+    {
+      "name": "Showcase Outlined Button",
+      "kind": "button",
+      "refersTo": "al-button",
+      "world": "aerolabs",
+      "description": "Square hairline-outlined secondary action; grey text turns white on hover.",
+      "html": "<a class=\"ds-al-btn\" href=\"#\">Discover ASTRAEUS</a>",
+      "css": ".ds-al-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 64px; padding: 0 28px; border: 1px solid var(--al-line, #1f2226); background: transparent; color: var(--al-muted, #9aa0a8); text-decoration: none; font-family: \"Archivo\", system-ui, sans-serif; font-weight: 700; font-size: 0.95rem; letter-spacing: 0.02em; text-transform: uppercase; cursor: pointer; transition: background-color 160ms cubic-bezier(0.23, 1, 0.32, 1), color 160ms cubic-bezier(0.23, 1, 0.32, 1), border-color 160ms cubic-bezier(0.23, 1, 0.32, 1), transform 160ms cubic-bezier(0.23, 1, 0.32, 1); } .ds-al-btn:hover { color: var(--al-text, #ffffff); border-color: var(--al-muted, #9aa0a8); } .ds-al-btn:active { transform: scale(0.97); } .ds-al-btn:focus-visible { outline: 2px solid var(--al-accent, #00c3ff); outline-offset: 2px; }"
+    },
+    {
+      "name": "Showcase Header",
+      "kind": "nav",
+      "refersTo": "al-nav-link",
+      "world": "aerolabs",
+      "description": "84px black header: wordmark left, centred grey links, outlined action right; no rules.",
+      "html": "<header class=\"ds-al-bar\"><a class=\"ds-al-mark\" href=\"#\">AeroLabs <span>AI</span></a><nav class=\"ds-al-nav\"><a href=\"#\">F1 Data Hub</a><a href=\"#\">ASTRAEUS</a><a href=\"#\">Vision</a></nav><a class=\"ds-al-cta\" href=\"#\">Open F1 Data Hub</a></header>",
+      "css": ".ds-al-bar { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; height: 84px; padding: 0 24px; background: rgb(0 0 0 / 0.92); color: var(--al-text, #ffffff); font-family: \"Archivo\", system-ui, sans-serif; } .ds-al-mark { color: inherit; text-decoration: none; font-weight: 800; font-size: 1.05rem; letter-spacing: 0.16em; text-transform: uppercase; white-space: nowrap; } .ds-al-mark span { color: var(--al-accent, #00c3ff); } .ds-al-nav { display: flex; gap: 48px; } .ds-al-nav a { color: var(--al-muted, #9aa0a8); text-decoration: none; font-size: 0.95rem; transition: color 160ms cubic-bezier(0.23, 1, 0.32, 1); } .ds-al-nav a:hover { color: var(--al-text, #ffffff); } .ds-al-cta { justify-self: end; display: inline-flex; align-items: center; min-height: 48px; padding: 0 26px; border: 1px solid var(--al-line, #1f2226); color: var(--al-text, #ffffff); text-decoration: none; font-size: 0.95rem; transition: border-color 160ms cubic-bezier(0.23, 1, 0.32, 1), transform 160ms cubic-bezier(0.23, 1, 0.32, 1); } .ds-al-cta:hover { border-color: var(--al-muted, #9aa0a8); } .ds-al-cta:active { transform: scale(0.97); } .ds-al-bar a:focus-visible { outline: 2px solid var(--al-accent, #00c3ff); outline-offset: 2px; }"
+    },
+    {
+      "name": "Status Marks",
+      "kind": "chip",
+      "refersTo": "al-status-mark-live",
+      "world": "aerolabs",
+      "description": "Solid cyan dot for live, dashed grey ring for under construction, always with words.",
+      "html": "<div class=\"ds-al-statuses\"><p class=\"ds-al-status ds-al-live\"><i></i>Live now</p><p class=\"ds-al-status\"><i></i>Under construction</p></div>",
+      "css": ".ds-al-statuses { display: grid; gap: 12px; } .ds-al-status { display: inline-flex; align-items: center; gap: 10px; margin: 0; color: var(--al-muted, #9aa0a8); font-family: \"Archivo\", system-ui, sans-serif; font-size: 0.78rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; } .ds-al-status i { width: 9px; height: 9px; border-radius: 50%; border: 1.5px dashed var(--al-muted, #9aa0a8); } .ds-al-live { color: var(--al-text, #ffffff); } .ds-al-live i { border: 0; background: var(--al-accent, #00c3ff); }"
+    },
+    {
+      "name": "Spec Figures",
+      "kind": "custom",
+      "refersTo": "al-spec",
+      "world": "aerolabs",
+      "description": "Large tabular figures over small tracked grey labels, live values only.",
+      "html": "<dl class=\"ds-al-specs\"><div><dd>1:35.202</dd><dt>Fastest lap · LEC</dt></div><div><dd>291<small> km/h</small></dd><dt>Top speed</dt></div><div><dd>2018+</dd><dt>Seasons covered</dt></div></dl>",
+      "css": ".ds-al-specs { display: flex; flex-wrap: wrap; gap: 20px 40px; margin: 0; color: var(--al-text, #ffffff); font-family: \"Archivo\", system-ui, sans-serif; } .ds-al-specs dd { margin: 0; font-weight: 700; font-size: 1.9rem; letter-spacing: -0.01em; font-variant-numeric: tabular-nums; } .ds-al-specs dd small { font-size: 0.95rem; font-weight: 600; color: var(--al-muted, #9aa0a8); } .ds-al-specs dt { margin-top: 2px; color: var(--al-muted, #9aa0a8); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; }"
+    },
+    {
+      "name": "Classification Rows",
+      "kind": "custom",
+      "refersTo": "al-class-row",
+      "world": "aerolabs",
+      "description": "Monochrome top-six rows on hairlines with team slivers beside codes.",
+      "html": "<ol class=\"ds-al-rows\"><li><span class=\"p\">1</span><i style=\"background:#3671c6\"></i><b>VER</b><span class=\"n\">Max Verstappen</span><span class=\"g\">1:42:00.785</span></li><li><span class=\"p\">2</span><i style=\"background:#e8002d\"></i><b>LEC</b><span class=\"n\">Charles Leclerc</span><span class=\"g\">+7.335</span></li></ol>",
+      "css": ".ds-al-rows { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--al-line, #1f2226); color: var(--al-text, #ffffff); font-family: \"Archivo\", system-ui, sans-serif; } .ds-al-rows li { display: grid; grid-template-columns: 36px 4px 56px minmax(0, 1fr) auto; align-items: center; gap: 14px; min-height: 58px; border-bottom: 1px solid var(--al-line, #1f2226); } .ds-al-rows .p { color: var(--al-muted, #9aa0a8); font-weight: 700; font-variant-numeric: tabular-nums; } .ds-al-rows i { height: 22px; } .ds-al-rows b { font-weight: 800; font-size: 1.1rem; letter-spacing: 0.02em; } .ds-al-rows .n { color: var(--al-muted, #9aa0a8); } .ds-al-rows .g { font-weight: 600; font-variant-numeric: tabular-nums; }"
+    },
+    {
+      "name": "Stats Row",
+      "kind": "custom",
+      "refersTo": "al-stat",
+      "world": "aerolabs",
+      "description": "Three live numbers centred with wide gaps.",
+      "html": "<div class=\"ds-al-stats\"><div><b>23</b><span>Grands Prix this season</span></div><div><b>22</b><span>Drivers classified, latest race</span></div><div><b>62</b><span>Laps, latest race</span></div></div>",
+      "css": ".ds-al-stats { display: flex; justify-content: center; flex-wrap: wrap; gap: 40px 96px; color: var(--al-text, #ffffff); font-family: \"Archivo\", system-ui, sans-serif; } .ds-al-stats div { display: grid; gap: 6px; } .ds-al-stats b { font-weight: 700; font-size: clamp(3.4rem, 6.4vw, 5.6rem); line-height: 1; letter-spacing: -0.03em; font-variant-numeric: tabular-nums; } .ds-al-stats span { color: var(--al-muted, #9aa0a8); font-size: 0.75rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; }"
+    },
+    {
+      "name": "Inline Action Link",
+      "kind": "custom",
+      "refersTo": "al-link",
+      "world": "aerolabs",
+      "description": "Cyan uppercase link with an arrow that nudges on hover.",
+      "html": "<a class=\"ds-al-link\" href=\"#\">Explore F1 Data Hub <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"square\" aria-hidden=\"true\"><path d=\"M4 12h15M13 6l6 6-6 6\"/></svg></a>",
+      "css": ".ds-al-link { display: inline-flex; align-items: center; gap: 10px; color: var(--al-accent, #00c3ff); text-decoration: none; font-family: \"Archivo\", system-ui, sans-serif; font-weight: 700; font-size: 0.9rem; letter-spacing: 0.04em; text-transform: uppercase; } .ds-al-link svg { width: 18px; height: 18px; transition: transform 160ms cubic-bezier(0.23, 1, 0.32, 1); } .ds-al-link:hover svg { transform: translateX(3px); } .ds-al-link:focus-visible { outline: 2px solid var(--al-accent, #00c3ff); outline-offset: 2px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Flight Hardware Showcase (AeroLabs AI company page, /) and The Broadcast Graphics Package (F1 Data Hub, /f1)",
+    "overview": "This file holds two visual worlds. The route decides which one applies; the app sets `body[data-section]` from the route table and every world-specific rule hangs off that attribute.\n\nF1 Data Hub (/f1): Every screen reads like the on-air graphics of a race broadcast. Data arrives as timing-tower strips, lower-third title bars and a circuit map, never as dashboard cards. The ground is carbon black, panels sit one cool step above it, and the data itself is white. Broadcast red is a signal colour, not a theme colour: it marks selection, live state and the active tab.\n\nThe form language is the slanted strip. Titles, tabs, buttons, segmented controls, the countdown and the weather band are four-point parallelograms cut with clip-path, butted together with 2px seams the way a broadcast tower stacks its rows. Titillium Web carries everything: heavy italic uppercase for titles and three-letter driver codes, upright tabular figures for times, gaps and readouts. Density is high and deliberate, like a TV graphic built to be read in a glance.\n\nMotion serves live data: tower rows slide to new positions, car markers glide between refreshes, the fastest lap draws itself around the circuit, and five start lights stand in for a spinner during slow loads. All of it is cancelled under reduced motion.\n\nThe package sits under the Aerolabs AI brand: F1 Data Hub is its F1 section, named in the first nav tab, and the top bar carries the AeroLabs AI logo mark beside the text wordmark. In the Persuade register (the landing page) the package runs at full coverage: a real fastest lap replays across a full-bleed hero as the only image, HUD readouts and a podium tower are read off it like an onboard graphic, and three oversized slanted tabs carry the ways in.\n\nAeroLabs AI company page (/): The company page is an aerospace-corporate showcase, built in the register of a space-industry company site (EnduroSat was the user's style reference; none of its assets or copy are used). Pure black ground, monumental centred uppercase type, and products presented like flight hardware: a name, a status, large spec figures with small tracked labels, and a real visual beside them. Nothing is decorative. The only imagery is real product output: the latest race's fastest lap replaying under the hero, and the latest classification beside F1 Data Hub; ASTRAEUS, not yet built, gets a plain orbital context diagram.\n\nArchivo carries the world, bold (700) to extra-bold (800) uppercase with tight negative tracking for the headline, product names and closing line; regular weight for copy and the vision statement; 600-weight tracked uppercase for labels and statuses. Structure is hairlines on black: 1px dark-grey rules divide every band and every row; there are no cards, panels or shadows. Density is low and the page is long, centred where it states and two-column where it shows a product.\n\nOne accent: the AeroLabs logo cyan. On `/` it is the primary action, the live state, inline action links, focus and selection, and the \"AI\" in the wordmark. Everything else is white, cool grey and black.",
+    "keyCharacteristics": [
+      "F1 Data Hub (/f1): rbon black ground with three cool panel steps; no light theme.",
+      "F1 Data Hub (/f1): Slanted parallelogram strips as the single recurring silhouette.",
+      "F1 Data Hub (/f1): Broadcast red used only for selection, live state and leader emphasis.",
+      "F1 Data Hub (/f1): Italic heavy uppercase for names and codes; upright tabular numerals for data.",
+      "F1 Data Hub (/f1): Rows stacked with 2px seams instead of borders or cards.",
+      "F1 Data Hub (/f1): Team colour slivers and lettered tyre discs; colour is never the only code.",
+      "F1 Data Hub (/f1): On the landing, the speed-coloured racing line is the hero image and the overlays carry the offer.",
+      "Showcase (/): re black ground, white type, cool grey secondary text; no tonal panel steps.",
+      "Showcase (/): Monumental centred uppercase headline in Archivo 700; product names and the closing line at 800.",
+      "Showcase (/): Products as flight hardware: name, status mark, large tabular spec figures over small tracked uppercase labels, and a real visual.",
+      "Showcase (/): Logo cyan is the single accent: primary action and live state.",
+      "Showcase (/): 1px dark hairlines between bands and rows; square corners; no cards, shadows, gradients or glows.",
+      "Showcase (/): Every figure on the page comes from the live F1 Data Hub API."
+    ],
+    "rules": [
+      {
+        "name": "The Route Decides The World Rule",
+        "body": "A surface takes exactly one world, chosen by its route. New pages under `/f1` are broadcast pages; new company pages sit outside `/f1` and take the showcase world. Slanted strips, Titillium Web, the carbon panel steps and broadcast red as a UI signal never appear on `/`; Archivo, the pure-black showcase palette and logo cyan as a UI colour never appear under `/f1`.",
+        "section": "overview",
+        "world": "shared"
+      },
+      {
+        "name": "The Signal Red Rule",
+        "body": "Red means selected, live or leading. It never decorates a surface that carries no state.",
+        "section": "colors",
+        "world": "f1"
+      },
+      {
+        "name": "The Letter With The Colour Rule",
+        "body": "Team colour appears only as a thin sliver beside a driver code; compound colour only with its letter. Position numbers and codes carry the meaning; colour reinforces it.",
+        "section": "colors",
+        "world": "f1"
+      },
+      {
+        "name": "The Line Is The Image Rule",
+        "body": "On the landing hero the speed-coloured racing line is the only picture: no photography, screenshots or illustration behind the overlays.",
+        "section": "colors",
+        "world": "f1"
+      },
+      {
+        "name": "The One Accent Rule",
+        "body": "On `/`, logo cyan is the only colour that is not black, white or grey, and it marks action or live state (plus focus and selection). It never fills a surface, a heading or a decorative shape. In the F1 world logo cyan stays inside the logo mark only.",
+        "section": "colors",
+        "world": "aerolabs"
+      },
+      {
+        "name": "The Real Output Rule",
+        "body": "On `/` the only pictures are real product output (the live lap, the live classification) or a plain hairline diagram for a product not yet built. No photography, renders, illustration, gradients or glows.",
+        "section": "colors",
+        "world": "aerolabs"
+      },
+      {
+        "name": "The Words With The Mark Rule",
+        "body": "Status is shape and words together: a solid cyan dot with \"Live now\" in white for a live product; a dashed grey ring with \"Under construction\" in grey for one not yet built.",
+        "section": "colors",
+        "world": "aerolabs"
+      },
+      {
+        "name": "The Two Postures Rule",
+        "body": "Names lean, numbers stand. Driver codes, titles and Grand Prix names are italic; times, gaps, positions and readouts are upright and tabular.",
+        "section": "typography",
+        "world": "f1"
+      },
+      {
+        "name": "The Figure Over Label Rule",
+        "body": "Every number on `/` is large, upright and tabular, with a small grey 600 tracked-uppercase label beneath it naming what it measures. Labels name data; they never sit above a heading as a kicker.",
+        "section": "typography",
+        "world": "aerolabs"
+      },
+      {
+        "name": "The Tonal Stack Rule",
+        "body": "Separate surfaces by panel step and 2px seams. No glass, no blur, no card shadows.",
+        "section": "elevation",
+        "world": "f1"
+      },
+      {
+        "name": "The Hairline Only Rule",
+        "body": "Separation on `/` is a 1px hairline-grey rule or nothing. No cards, panels, fills, shadows or glows to group content.",
+        "section": "elevation",
+        "world": "aerolabs"
+      }
+    ],
+    "dos": [
+      "**Do** cut every tab, button, segment and title segment as a four-point parallelogram (10px slant on controls, 14px on strips).",
+      "**Do** stack rows with 2px seams on panel instead of borders or separate cards.",
+      "**Do** keep broadcast red for selected, live and leading states.",
+      "**Do** set driver codes and names in italic 700 uppercase, and all times, gaps and positions upright with tabular figures.",
+      "**Do** pair every team colour with a driver code and every compound colour with its letter.",
+      "**Do** use an inset 2px data-white ring for focus on clipped shapes.",
+      "**Do** explain missing data in a dashed state block rather than showing a raw error.",
+      "**Do** give the landing's ways in as 72px slanted CTA tabs (16px slant), with only the primary action in broadcast red.",
+      "**Do** replay hero laps as a ghost lap: the full lap at 32% opacity, live segments at full strength behind the car.",
+      "**Do** resolve the world from the route: `data-section=\"aerolabs\"` on `/` only, `data-section=\"f1\"` on `/f1` and every `/f1/*` route, with the `--al-*` tokens declared only under the aerolabs scope.",
+      "**Do** keep logo cyan on `/` to the primary action, the live state, inline action links, focus and selection, and the wordmark's \"AI\".",
+      "**Do** present each product like flight hardware: name, status mark with words, large tabular figures over small tracked uppercase labels, and a real visual with a caption.",
+      "**Do** take every figure on `/` from the live API, showing \"--\" or a plain unavailable line rather than an invented number.",
+      "**Do** separate bands and rows with 1px hairline-grey rules on pure black.",
+      "**Do** set the hero statement in Archivo 700 uppercase with tight negative tracking, centred, and product names and the closing line at 800.",
+      "**Do** show the completed lap, still, under reduced motion."
+    ],
+    "donts": [
+      "**Don't** use rounded rectangles; circles are only for tyres, lights, car markers and the live dot.",
+      "**Don't** use glass, blur or gradients on text. Gradients appear only as the speed-scale legend, the loading shimmer and the landing hero's bottom legibility scrim.",
+      "**Don't** build KPI tiles or rounded card grids; data goes into towers, strips and the circuit map.",
+      "**Don't** use the F1 logo, official Formula 1 typefaces or trademarked marks.",
+      "**Don't** let a motion run when reduced motion is requested.",
+      "**Don't** carry slanted strips, Titillium Web, the carbon panel steps or broadcast red as a UI signal onto `/`, or Archivo, the showcase palette and logo cyan as a UI colour into `/f1`.",
+      "**Don't** use gradients, glass, glows, shadows, rounded corners, cards or panel fills on `/`.",
+      "**Don't** put photography, renders or illustration on `/`; the pictures are real product output or a plain hairline diagram.",
+      "**Don't** use a second accent colour on `/`; team and speed colours appear only inside F1 Data Hub's own data graphics.",
+      "**Don't** invent specs, partners or dates for a product that is not built; label its visual a concept."
+    ]
+  }
+}

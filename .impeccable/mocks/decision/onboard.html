@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,600;0,700;0,900;1,700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0}
+body{width:1440px;height:900px;overflow:hidden;background:#0b0b10;color:#f4f4f7;font-family:"Titillium Web",sans-serif;position:relative}
+.top{position:absolute;z-index:3;left:0;right:0;top:0;height:60px;display:flex;align-items:center;gap:36px;padding:0 48px;border-top:3px solid #e10600}
+.mark{font-weight:900;font-size:22px;letter-spacing:.06em}.mark b{color:#ff2a1f}
+.top nav{display:flex;gap:4px;font-weight:700;font-size:14px;letter-spacing:.1em;text-transform:uppercase}
+.top nav span{padding:8px 18px;color:#a2a2b6}.top nav .on{background:#e10600;color:#fff;clip-path:polygon(10px 0,100% 0,calc(100% - 10px) 100%,0 100%)}
+.top nav .soon{color:#a2a2b6}
+.circuit{position:absolute;inset:0;z-index:0}
+.hud{position:absolute;z-index:2;top:100px;left:48px;display:flex;gap:2px}
+.hud div{background:rgba(19,19,27,.92);padding:12px 22px}
+.hud dt{color:#8b8ba1;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase}
+.hud dd{font-weight:900;font-size:44px;line-height:1.05}.hud dd small{font-size:15px;color:#a2a2b6;margin-left:4px}
+.hud .drv dd{font-style:italic;font-weight:700;display:flex;align-items:center;gap:12px}.hud .drv i{width:6px;height:36px;background:#e8002d}
+.cd{position:absolute;z-index:2;top:100px;right:48px;background:rgba(27,27,38,.95);padding:12px 22px;clip-path:polygon(12px 0,100% 0,calc(100% - 12px) 100%,0 100%)}
+.cd span{display:block;color:#a2a2b6;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.cd b{font-weight:900;font-size:34px}.cd small{font-size:13px;color:#a2a2b6;margin:0 6px 0 2px}
+.lower{position:absolute;z-index:2;left:48px;bottom:150px}
+.strip{display:flex;align-items:stretch}
+.tag{background:#e10600;font-weight:700;font-style:italic;text-transform:uppercase;padding:0 20px;display:flex;align-items:center;clip-path:polygon(0 0,100% 0,calc(100% - 14px) 100%,0 100%);margin-right:-10px}
+.ttl{background:#f4f4f7;color:#0b0b10;padding:10px 44px 10px 30px;clip-path:polygon(14px 0,100% 0,calc(100% - 14px) 100%,0 100%)}
+h1{font-style:italic;font-weight:700;text-transform:uppercase;font-size:64px;line-height:1}
+.lede{margin-top:16px;font-size:20px;color:#c9c9d6;max-width:620px}
+.free{display:inline-flex;gap:8px;margin-top:14px}.free span{background:#1b1b26;padding:4px 12px;font-weight:700;font-size:12px;letter-spacing:.1em;text-transform:uppercase}
+.pod{position:absolute;z-index:2;right:48px;bottom:150px;width:330px;display:grid;gap:2px}
+.pod div{display:grid;grid-template-columns:36px 5px 1fr auto;gap:10px;align-items:center;background:rgba(19,19,27,.95);padding-right:12px;height:38px;font-weight:700}
+.pod b{display:grid;place-items:center;height:38px;background:#242432;font-weight:900}.pod div:first-child b{background:#f4f4f7;color:#0b0b10}
+.pod i{height:24px}.pod span:last-child{color:#a2a2b6;font-weight:600}
+.cta{position:absolute;z-index:2;left:0;right:0;bottom:0;height:110px;display:grid;grid-template-columns:repeat(3,1fr);gap:2px;padding:0 48px 30px}
+.cta span{display:flex;align-items:center;justify-content:space-between;padding:0 28px;background:#1b1b26;font-weight:700;font-style:italic;font-size:22px;text-transform:uppercase;clip-path:polygon(14px 0,100% 0,calc(100% - 14px) 100%,0 100%)}
+.cta span.red{background:#e10600}
+</style></head><body>
+<header class="top"><div class="mark">AEROLABS <b>AI</b></div>
+<nav><span class="on">F1 Data Hub</span><span>Live</span><span>Sessions</span><span>Strategy</span><span class="soon">Aerospace · soon</span></nav></header>
+<svg class="circuit" viewBox="0 0 1440 900"><path d="M260 700 L520 260 L720 330 L840 560 L980 300 L1120 250 L1300 340 L1320 640 L1020 680 L860 620 L560 600 L420 780Z" fill="none" stroke="#1b1b26" stroke-width="40" stroke-linejoin="round"/>
+<path d="M260 700 L520 260" stroke="#4c6fff" stroke-width="9"/><path d="M520 260 L720 330 L840 560" stroke="#e10600" stroke-width="9" fill="none" stroke-linejoin="round"/><path d="M840 560 L980 300 L1120 250" stroke="#ff8a1a" stroke-width="9" fill="none" stroke-linejoin="round"/><path d="M1120 250 L1300 340" stroke="#ffd12e" stroke-width="9"/>
+<circle cx="1300" cy="340" r="13" fill="#fff"/><circle cx="1300" cy="340" r="5" fill="#e8002d"/></svg>
+<dl class="hud"><div class="drv"><dt>Fastest lap</dt><dd><i></i>LEC</dd></div><div><dt>Car speed</dt><dd>287<small>km/h</small></dd></div><div><dt>Replay clock</dt><dd>0:58.410</dd></div></dl>
+<div class="cd"><span>Next · US Grand Prix FP1</span><b>2<small>d</small>19<small>h</small>36<small>m</small></b></div>
+<div class="lower"><div class="strip"><span class="tag">Aerolabs F1</span><div class="ttl"><h1>Every lap, decoded.</h1></div></div>
+<p class="lede">Watch any Grand Prix's fastest lap, timing tower and tyre strategy, rebuilt from open data.</p>
+<div class="free"><span>Free</span><span>No login</span><span>No F1 TV needed</span></div></div>
+<div class="pod"><div><b>1</b><i style="background:#4781d7"></i><span>VER</span><span>Singapore</span></div><div><b>2</b><i style="background:#e8002d"></i><span>LEC</span><span>+7.335</span></div><div><b>3</b><i style="background:#27f4d2"></i><span>ANT</span><span>+24.573</span></div></div>
+<div class="cta"><span class="red">Past sessions →</span><span>Live board →</span><span>Strategy →</span></div>
+</body></html>

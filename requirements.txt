@@ -1,5 +1,6 @@
+fastapi>=0.115
+uvicorn>=0.30
 fastf1>=3.4.0
-streamlit>=1.39.0
 pandas
-matplotlib
-plotly
+numpy
+requests
