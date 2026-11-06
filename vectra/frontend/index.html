@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0B0B10">
+  <meta name="description" content="VECTRA by AeroLabs AI: free Formula 1 race analysis in the browser. Fastest-lap replays, timing, tyre strategy, pit and safety car tactics from open race data.">
+  <title>VECTRA · AeroLabs AI</title>
+  <link rel="preload" href="/assets/fonts/titillium-web-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/titillium-web-700-italic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/inter-tight.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/app.css">
+  <link rel="icon" href="/assets/icon.svg?v=2" type="image/svg+xml">
+  <link rel="icon" href="/assets/favicon-32.png?v=2" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png?v=2">
+  <script type="module" src="/assets/js/app.js"></script>
+</head>
+<body data-section="f1">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-nav">
+    <div class="nav-bar">
+      <a class="nav-logo" href="/" data-link aria-label="VECTRA home">
+        <img src="/assets/brand/aerolabs-logo-dark.svg" alt="" width="46" height="36"><span class="nav-product">VECTRA</span>
+      </a>
+      <nav class="nav-links" aria-label="VECTRA">
+        <a href="/" data-link data-nav="vectra">Overview</a>
+        <a href="/sessions" data-link data-nav="sessions">Sessions</a>
+        <a href="/live" data-link data-nav="live">Live<span class="nav-live-dot" hidden></span></a>
+        <a href="/strategy" data-link data-nav="strategy">Strategy</a>
+      </nav>
+      <div class="nav-right">
+        <a href="#" data-app="web" data-path="/">AeroLabs AI ↗</a>
+      </div>
+      <button class="nav-menu-btn" type="button" aria-expanded="false" aria-controls="nav-sheet">Menu<span class="plus" aria-hidden="true"></span></button>
+    </div>
+    <nav class="nav-sheet" id="nav-sheet" aria-label="Menu" data-lenis-prevent hidden>
+      <a href="/" data-link>Overview</a>
+      <a href="/sessions" data-link>Sessions</a>
+      <a href="/live" data-link>Live</a>
+      <a href="/strategy" data-link>Strategy</a>
+      <a href="#" data-app="web" data-path="/">AeroLabs AI</a>
+    </nav>
+  </header>
+  <main id="main" tabindex="-1"></main>
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      <div class="site-footer-brand">
+        <a class="wordmark" href="#" data-app="web" data-path="/" aria-label="AeroLabs AI home">
+          <img class="wordmark-logo" src="/assets/brand/aerolabs-logo-dark.svg" alt="" width="46" height="36">
+          <span class="wordmark-name">AeroLabs</span><span class="wordmark-ai">AI</span>
+        </a>
+        <p>Predict the future of racing. Engineer the future of space.</p>
+      </div>
+      <nav class="site-footer-links" aria-label="Footer">
+        <details class="ft-group">
+          <summary>Products<span class="plus" aria-hidden="true"></span></summary>
+          <div class="ft-list"><a href="/" data-link>VECTRA</a><a href="#" data-app="astraeus" data-path="/">ASTRAEUS</a></div>
+        </details>
+        <details class="ft-group">
+          <summary>Company<span class="plus" aria-hidden="true"></span></summary>
+          <div class="ft-list"><a href="#" data-app="web" data-path="/about">About</a><a href="#" data-app="web" data-path="/vision">Vision</a><a href="#" data-app="web" data-path="/blog">Blog</a></div>
+        </details>
+        <details class="ft-group">
+          <summary>VECTRA<span class="plus" aria-hidden="true"></span></summary>
+          <div class="ft-list"><a href="/sessions" data-link>Sessions</a><a href="/live" data-link>Live board</a><a href="/strategy" data-link>Strategy</a></div>
+        </details>
+      </nav>
+    </div>
+    <div class="site-footer-legal">
+      <p>© <span data-year>2026</span> AeroLabs AI. All rights reserved.</p>
+      <p>VECTRA data from <a href="https://github.com/theOehrly/Fast-F1" rel="noopener">FastF1</a> and <a href="https://openf1.org" rel="noopener">OpenF1</a>. Unofficial; not associated with Formula 1 companies.</p>
+    </div>
+  </footer>
+</body>
+</html>

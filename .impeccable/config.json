@@ -83,6 +83,15 @@
         ],
         "createdAt": "2026-10-21T08:26:06.097Z",
         "reason": "Claude: unchosen decision-round sketch, spent hand, never shipped"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "frontend/index.html"
+        ],
+        "createdAt": "2026-10-21T15:43:22.075Z",
+        "reason": "Claude: lg-bar capsule holds 42px nav pills centred in a 60px bar; text sits ~20px from its edge (Apple tab-bar pattern)"
       }
     ]
   }
